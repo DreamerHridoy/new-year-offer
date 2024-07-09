@@ -77,4 +77,39 @@ body {
   margin-top: 120px;
   margin-bottom: 120px;
   background-image: url("../images/Vectorrr.png");
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.party-content {
+  width: 660px;
+}
+.party-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 120px;
+}
+.party-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: -100px;
+}
+.party-content summary {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+  text-align: center;
+  margin-left: -600px;
 }
