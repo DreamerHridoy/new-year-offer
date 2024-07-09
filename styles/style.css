@@ -10,7 +10,7 @@ body {
 }
 /* banner section */
 .banner-container {
-  max-width: 1420px;
+  width: 1420px;
   height: 600px;
   margin: 50px 130px;
   background-image: url("../images/Banner\ Image.png");
