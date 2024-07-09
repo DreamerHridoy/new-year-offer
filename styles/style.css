@@ -304,3 +304,114 @@ body {
   grid-template-columns: repeat(3, 1fr);
   /* grid: (2, 1fr); */
 }
+/* newsletter section  */
+.newsletter-section {
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto;
+  background-color: rgb(255, 234, 234);
+  margin-bottom: 225px;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+.newsletter-info h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.newsletter-info p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.newsletter-info img {
+  margin-left: 600px;
+}
+.newsletter-info input {
+  width: 600px;
+  height: 50px;
+  margin-left: 300px;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+}
+.gmail-part {
+  display: flex;
+}
+.subscribe-design {
+  font-weight: 400;
+  background-color: red;
+  color: white;
+  font-family: Inter;
+  font-size: 30px;
+  margin-left: 5px;
+  border: 2px solid white;
+  border-radius: 5px solid red;
+  box-shadow: 2px 2px solid red;
+}
+/* footer part  */
+.footer-container {
+  width: 1500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: black;
+}
+.location-part p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.right-side-text h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.location-part {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-item {
+  justify-content: center;
+  align-items: center;
+  margin-left: 580px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.lower-part-footer {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.right-reserved-text {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.lower-part-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.reserved-part {
+  margin-top: 20px;
+}
+.right-reserved-text {
+  margin-top: 20px;
+}
