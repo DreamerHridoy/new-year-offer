@@ -219,5 +219,88 @@ body {
   width: 1320px;
   height: 986px;
   margin: 0 auto;
-  border: 2px solid red;
+
+  margin-bottom: 120px;
+}
+.holiday-text-content h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+}
+.holiday-text-content h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  text-align: center;
+}
+.holiday-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+/* .holiday-text-content img {
+  margin-top: 570px;
+} */
+.container {
+  position: relative;
+}
+.rectangle {
+  background-color: red;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 0 15px 15px;
+}
+.box-img {
+  position: absolute;
+  top: 50px;
+  width: 600px;
+}
+.discount-img {
+  display: flex;
+  justify-content: end;
+  /* border: 2px solid red; */
+}
+/* best gift section  */
+.gift-section-container {
+  width: 1320px;
+  height: 1163px;
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+}
+.gift-content-text h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.gift-content-text h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.gift-content-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.gift-item {
+  width: 424px;
+  height: 450px;
+}
+.gift-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid: (2, 1fr); */
 }
